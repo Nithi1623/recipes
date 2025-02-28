@@ -6,7 +6,7 @@
 body{
     
     font-family: "Open Sans", serif;
-    background-image: url('cooking-image.jpg'); /* Replace with your actual image file name */
+    background-image: url('/public/Images/cooking-image.jpg'); /* Replace with your actual image file name */
     background-size: cover; /* Ensures the image covers the whole page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
