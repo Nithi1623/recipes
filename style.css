@@ -6,7 +6,7 @@
 body{
     
     font-family: "Open Sans", serif;
-    background-image: url('./Images/Cooking\ image.jpg'); /* Replace with your actual image file name */
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Findian-food-table&psig=AOvVaw2majv0xni7qAKPprKWDLAb&ust=1740804709383000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJj_gMPJ5YsDFQAAAAAdAAAAABBA'); /* Replace with your actual image file name */
     background-size: cover; /* Ensures the image covers the whole page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
