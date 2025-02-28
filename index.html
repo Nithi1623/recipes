@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "heading">
+        <h1>RECIPES</h1>
+    </div>
+
+    <div class = "session">
+        <div class = "recipe-ses">
+            <h2>Chicken Dum Briyani Recipe (2Nos)</h2>
+            <h3>By Nithyaraja</h3>
+            <p>
+                <ol>
+                    <li>Take a bowl and add 2 cup of rice</li>
+                    <li>Wash the rice with water and soak the rice with water and keep it seperately for 30 minutes</li>
+                    <li>Take a cooker or briyani cooking handi</li>
+                    <li>Add 2 tbsp of oil</li>
+                    <li> Add 1 cinamon stick, 1 briyani leaf, 4 cloves, 1 cardamon</li>
+                    <li> Add 2 chopped onion and saute until it turns deep brown</li>
+                    <li> Add 1 green chilli</li>
+                    <li> Add 2 tbsp of kashmiri chilli powder and saute for 2 minutes</li>
+                    <li> Add handfull of coriander and saute for 2 minutes</li>
+                    <li> Add handfull of mint leaf and saute for 2 minutes</li>
+                    <li> Add 1 tbsp of ginger garlic paste and saute for 2 minutes</li>
+                    <li> Add 1 chopped tomato and saute for 2 minutes</li>
+                    <li> Add 1/2 cup of curd and saute for 2 minutes</li>
+                    <li> Add 1/2 kg of chicken and saute for 5 minutes</li>
+                    <li> Add 4 cups of water for 2 cup of rice and boil for 5 minutes </li>
+                    <li> Add salt</li>
+                    <li> After boiling, add the rice to the cooker</li>
+                    <li> Heat dosa pan</li>
+                    <li> Close the cooker or Briyani handi with a plate </li>
+                    <li> Place some weight on the top of the plate</li>
+                    <li> place the cooker or briyani handi on the dosa pan</li>
+                    <li> Keep the flame in low and cook for 15 minutes</li>
+                    <li> After 15 minutes, open the cooker or briyani handi and serve the Chicken Dum Briyani</li>
+                </ol>
+                </p>
+                <button onclick="modifyRecipe(event)">Modify</button>
+            <button onclick = delcon(event)>Delete</button>
+        </div>
+    </div>
+
+    <div class = "popup-overlay"></div>
+
+    <div class = "popup-box">
+        <h2>Add Recipe</h2>
+    <form>
+        <input type="text" placeholder = "Recipe Name" id = "recipe-name">
+        <input type="text" placeholder = "Author" id = "author">
+        <textarea placeholder = "Recipe" id = "recipe-dis"></textarea>  
+        <button id = "add-recipe">Add</button>
+        <button id = "close-recipe">Close</button>
+    </form>
+    </div>
+
+    <button class = "add-button" id = "add-popup">+</button>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
